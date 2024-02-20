@@ -14,7 +14,7 @@ replaces=("shellcheck")
 depends=()
 makedepends=('stack')
 source=("${_name}-${pkgver}.tar.gz::https://github.com/koalaman/${_name}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('7d30dea0adf6511a7a872fadb06cf037bc5ef118450b1618e6d1900785439444')
+sha256sums=('3cec1fec786feee79dacdabf9de784a117b7f82388dbcca97ba56a5c9ff7d148')
 
 build() {
   cd "$srcdir/$_name-$pkgver"
