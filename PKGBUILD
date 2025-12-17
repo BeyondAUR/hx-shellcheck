@@ -2,7 +2,7 @@
 
 _name=shellcheck
 pkgname=hx-$_name
-pkgver=0.10.0
+pkgver=0.11.0
 pkgrel=1
 pkgdesc="Shell script analysis tool"
 url="https://www.shellcheck.net/"
@@ -14,7 +14,7 @@ replaces=("shellcheck")
 depends=()
 makedepends=('stack')
 source=("${_name}-${pkgver}.tar.gz::https://github.com/koalaman/${_name}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('149ef8f90c0ccb8a5a9e64d2b8cdd079ac29f7d2f5a263ba64087093e9135050')
+sha256sums=('8b07554f92e4fbfc33f1539a1f475f21c6503ceae8f806efcc518b1f529f7102')
 
 build() {
   cd "$srcdir/$_name-$pkgver"
